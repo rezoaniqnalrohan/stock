@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "faststock",
+      "runtimeExecutable": "C:\\xampp\\php\\php.exe",
+      "runtimeArgs": ["faststock/artisan", "serve", "--port=8000"],
+      "port": 8000
+    },
+    {
+      "name": "medstock",
+      "runtimeExecutable": "C:\\xampp\\php\\php.exe",
+      "runtimeArgs": ["medstock/artisan", "serve", "--port=8001"],
+      "port": 8001
+    },
+    {
+      "name": "electrostock",
+      "runtimeExecutable": "C:\\xampp\\php\\php.exe",
+      "runtimeArgs": ["electrostock/artisan", "serve", "--port=8002"],
+      "port": 8002
+    },
+    {
+      "name": "freshstock",
+      "runtimeExecutable": "C:\\xampp\\php\\php.exe",
+      "runtimeArgs": ["freshstock/artisan", "serve", "--port=8003"],
+      "port": 8003
+    }
+  ]
+}
